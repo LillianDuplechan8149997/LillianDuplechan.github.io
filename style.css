@@ -1,7 +1,7 @@
-
+ 
    body {
-       background: ___________________;
-       color: navy;
+       background: hsl(342, 100%, 98%);
+       color: hsl(333, 100%, 89%);
        padding: 10px;
        font-family: arial;
    }
@@ -12,7 +12,7 @@
 
    /* navigation menu */
    nav {
-       background: ___________________;
+       background: white;
       margin: 0 auto;
      margin-bottom: 20px;
        display: flex;
@@ -21,7 +21,7 @@
    h1 {
        display: flex;
        align-items: center;
-       color: navy;
+       color: hsl(343, 100%, 95%);
        flex: 1;
        margin: 0;
    }
@@ -35,12 +35,13 @@
    }
    a {
        text-decoration: none;
-       color:navy;
+       color:rgb(211, 211, 255);
    }
 
    /* main container area beneath menu */
    main {
        background: ___________________;
+       color: hwb(329 82% 0%)
        display: flex;
    }
    .sidebar {
@@ -57,7 +58,7 @@
 
    /* portfolio styles */
    #interests {
-       border: 3px gray solid;
+       border: 3px #ffffff solid;
        padding: 8px;
    }
    h2, h3 {

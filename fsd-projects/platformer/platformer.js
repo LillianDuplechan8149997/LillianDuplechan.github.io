@@ -1,3 +1,5 @@
+const { createRef } = require("react");
+
 $(function () {
   // initialize canvas and context when able to
   canvas = document.getElementById("canvas");
@@ -51,6 +53,10 @@ $(function () {
 createCollectable("kennedi" , 550,100);
     
     // TODO 4 - Create Cannons
+createCannon("left", 400, 1000);
+createCannon("top" , 500 , 1000);
+createCannon("bottom" , 1000, 1000);
+createCannon("top" , 700 , 1000);
 
 
     
